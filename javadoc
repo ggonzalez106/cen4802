@@ -1,0 +1,25 @@
+package assignment2;
+/**
+ * This program displays the 10th term of the Fibonacci sequence. 
+ *@author Guillermo Gonzalez
+ *@return nth term of the Fibonacci sequence.
+ *@param n This is the nth term of the Fibonacci sequence.
+ */
+public class Fibonacci {
+static int fibonacci(int n)
+{
+	if (n <= 1)
+		return n;
+	return fibonacci(n-1) + fibonacci(n-2);
+}
+/**
+ *@param args
+ */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int n = 10;
+System.out.println("The nth term of the Fibonacci sequence is:");
+System.out.println(fibonacci(n));
+	}
+
+}
