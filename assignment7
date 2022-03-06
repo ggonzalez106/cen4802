@@ -1,0 +1,19 @@
+package assignment7.assignment7;
+
+
+public class Main
+{
+    public static void main( String[] args )
+    {
+        System.out.println(evenNumber(1));
+    }
+
+	static boolean evenNumber(int number) {
+		// TODO Auto-generated method stub
+		return number % 2 == 0;
+	}
+}
+
+
+
+
